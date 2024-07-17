@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+body, html{
+    height: 100%;
+}
+
 body{
+    display: flex;
+    justify-content: center;
     background-color: black;
     background: linear-gradient(
         0deg,
-        rgb(35, 30, 36) 0%,
+        rgb(81, 69, 83) 0%,
         rgb(51, 83, 84) 40%,
         rgb(89, 143, 154)100%
     );
@@ -36,7 +42,8 @@ div{
 }
 
 img{
-    height: 100px;
+    width: 150px;
+    height: 145px;
     border-radius: 50%;
     background-color: rgb(68, 81, 93);
     margin: 20px;
